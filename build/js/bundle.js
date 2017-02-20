@@ -21994,13 +21994,9 @@ var _reactDom = __webpack_require__(84);
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 (0, _reactDom.render)(_react2.default.createElement(
-	'div',
+	'h1',
 	null,
-	_react2.default.createElement(
-		'h1',
-		null,
-		'Hello World!'
-	)
+	'Hello World!'
 ), document.getElementById('root'));
 
 /***/ })
