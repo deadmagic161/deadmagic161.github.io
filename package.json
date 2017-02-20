@@ -1,0 +1,20 @@
+{
+  "name": "deadmagic161.github.io",
+  "version": "1.0.0",
+  "description": "Test for TrendTech",
+  "main": "index.html",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deadmagic161/deadmagic161.github.io.git"
+  },
+  "author": "Victor",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deadmagic161/deadmagic161.github.io/issues"
+  },
+  "homepage": "https://github.com/deadmagic161/deadmagic161.github.io#readme"
+}
