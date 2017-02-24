@@ -1,9 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
+import LeftMenu from './components/leftMenu/leftMenu';
 
 render(
 	<div>
-		<h1>Hello World!</h1>
+		<LeftMenu />
 	</div>,
 	document.getElementById('root')
 );
