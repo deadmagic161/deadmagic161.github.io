@@ -1,6 +1,4 @@
 const path = require('path');
-
-
 module.exports = {
    entry: path.join(__dirname, 'src/js', 'app.js'),
    output: {
@@ -11,7 +9,7 @@ module.exports = {
       loaders: [
          { test: /\.js$/, 
             exclude: /node_modules/, 
-            loader: "babel-loader" 
+            loader: 'babel-loader' 
          },
       ],
    },
