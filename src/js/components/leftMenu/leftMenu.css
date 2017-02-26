@@ -1,3 +1,60 @@
-.left-menu {
+.leftMenu {
+	font: 14px "Arial", sans-serif;
+	line-height: 1.4;
+}
+
+.leftMenu__list {
+	margin: 0;
+	padding: 0;
+	width: 180px;
+	list-style: none;
 	
+}
+
+.leftMenu__link {
+	display: block;
+	padding: 8px 14px;
+	color: #0088cc;
+	border: 1px solid #e5e5e5;
+	text-decoration: none;
+	
+}
+
+.leftMenu__link:hover {
+	background: #f5f5f5;
+}
+
+.leftMenu__item {
+	position: relative;
+}
+
+.leftMenu__dropDown {
+	position: absolute;
+	top: 0;
+	left: 180px;
+	width: 150px;
+	margin: 0;
+	padding: 0;
+	display: none;
+	background: #fcf8e3;
+	list-style: none;
+	border: 1px solid #e5e5e5;
+}
+
+.leftMenu__dropDown_edit,
+.leftMenu__dropDown_remove,
+.leftMenu__dropDown_create {
+	border: 1px solid #e5e5e5;
+}
+
+
+.dropDowm__link {
+	text-decoration: none;
+	color: #2A53EA;
+	padding: 8px 14px;
+	display: block;
+}
+
+.leftMenu__item:hover .leftMenu__dropDown {
+	display: block;
 }

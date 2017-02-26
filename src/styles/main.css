@@ -1,0 +1,16 @@
+html, body, p, h1 {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #4F4E45;
+}	
