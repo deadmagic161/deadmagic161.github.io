@@ -5,6 +5,7 @@ npm install
 webpack
 npm start
 Go to the browser on localhost:3000
+```
 
-##Magic!!
+##Magic
 ![magic](http://s12.favim.com/orig/160325/fantasy-gif-harry-potter-hermione-Favim.com-4117312.gif)
